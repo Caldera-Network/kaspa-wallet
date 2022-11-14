@@ -1,6 +1,6 @@
 import {Wallet} from './wallet';
 import {iDB} from './indexed-db';
-import {Api} from 'custom-types';
+import {Api} from '../types/custom-types';
 
 const API_BASE = "https://api.kaspa.org/";
 
