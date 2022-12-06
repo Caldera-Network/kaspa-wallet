@@ -156,7 +156,6 @@ export class TXStore{
 			this.idb?.set(tx.id, JSON.stringify(tx))
 		}
 	}
-
 	pendingUpdate:string[] = [];
 	updateTxTimeoutId:NodeJS.Timeout|null = null;
 	updateTransactionTime(id:string){
