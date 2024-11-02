@@ -143,7 +143,7 @@ class Wallet extends EventTargetImpl {
 
 	defaultFee: number = 1; //per byte
 
-	subnetworkId: string = "0100000000000000000000000000000000000000"; //hex string
+	subnetworkId: string = "0000000000000000000000000000000000000000"; //hex string
 
 	last_tx_:string = '';
 	/**
