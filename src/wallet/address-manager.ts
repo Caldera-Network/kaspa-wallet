@@ -133,7 +133,7 @@ export class AddressManager extends EventTargetImpl {
 	} {
 		//let ts0 = Date.now();
 		const dType = deriveType === 'receive' ? 0 : 1;
-		const {privateKey} = this.HDWallet.deriveChild(`m/44'/972/0'/${dType}'/${index}'`);
+		const {privateKey} = this.HDWallet.deriveChild(`m/44'/111111/0'/${dType}'/${index}'`);
 		//let ts1 = Date.now();
 		//let publicKeys = secp256k1.export_public_keys(privateKey.toString());
 		const xonlyPubKey = secp256k1.export_public_key_xonly(privateKey.toString());
