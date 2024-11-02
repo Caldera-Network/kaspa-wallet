@@ -267,7 +267,7 @@ class Wallet extends EventTargetImpl {
 	}
 
 	createUID(){
-		const {privateKey} = this.HDWallet.deriveChild(`m/44'/111111/0'/1'/0'`);
+		const {privateKey} = this.HDWallet.deriveChild(`m/44'/972/0'/1'/0'`);
 		let address = privateKey.toAddress(this.network).toString().split(":")[1]
 		return helper.createHash(address);
 	}
